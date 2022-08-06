@@ -10,6 +10,6 @@ In order to accomplish this we used Microsoft's Virtual Basic programming langua
 ![code2](https://github.com/shaneabbley/stock-analysis/blob/main/code2.png)
 
 ### Results
-I encountered a few difficulties working with VBA. Primarily, the tickerindex variable kept increasing iteratively past the expected 12. I worked around this by hard capping it at 12. This was inefficient and can certainly be improved upon.
+I encountered a few difficulties working with VBA. Primarily, the tickerindex variable kept increasing iteratively past the expected 12. I worked around this by hard capping it at 12. This was inefficient and can certainly be improved upon. The refactored code, seen above, improved upon the efficiency of the original code by almost 100 ms. 
 ### Discussion
 Overall the proccess was improved, yet I would utilize a different programming language for this. I have more experience using python and Mathematica for solving problems like this, but VBA is certainly capable of this. This was my first time refactoring code for the purpose of efficiency and readability. I learned a lot about VBA and excel. 
